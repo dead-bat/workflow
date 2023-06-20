@@ -1,0 +1,17 @@
+{
+    "name": "Workato Automation 01",
+    "version": 1,
+    "connections": [
+        {
+            "name": "Workato 01",
+            "config": "workato_01.json",
+            "app": "workato.py"
+        }
+    ],
+    "assets": [
+
+    ],
+    "steps": [
+
+    ]
+}

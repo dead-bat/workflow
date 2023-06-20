@@ -1,0 +1,5 @@
+{
+    "name": "Workato Embedded API - US",
+    "api_token": "<api_token>",
+    "root_url": "https://www.workato.com/api"
+}

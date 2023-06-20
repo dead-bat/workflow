@@ -15,6 +15,25 @@ from datetime import datetime as dt
 
 ## CLASSES
 
+class Connection:
+    def __init__(self, type, config):
+        self.type = type
+        self.config = config
+        self.status = 'disconnected'
+        self.error_state = False
+    def connect(self):
+        return None
+    def get(self, target, headers, payload):
+        return None
+    def post(self, target, headers, payload):
+        return None
+    def patch(self, target, headers, payload):
+        return None
+    def put(self, target, headers, payload):
+        return None
+    def delete(self, target, headers, payload):
+        return None
+
 class Workflow:
     def __init__(self, workflow, job_id, working_dir):
         self.spec = workflow
@@ -24,11 +43,8 @@ class Workflow:
         self.error_state = False
         self.status = None
     def initialize(self):
-        message, error, status = None, False, None
-        return message, error, status
+        return None
     def execute(self):
-        message, error, status = None, False, None
-        return message, error, status
+        return None
     def cleanup(self):
-        message, error, status = None, False, None
-        return message, error, status
+        return None
